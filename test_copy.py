@@ -19,7 +19,7 @@ def assert_multiindex_copied(copy, original):
     assert copy.codes is not original.codes
 
     # Names doesn't matter which way copied
-    assert copy.names == original.names
+    assert copy.names == original.papers
     assert copy.names is not original.names
 
     # Sort order should be copied
