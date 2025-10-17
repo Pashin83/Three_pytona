@@ -22,3 +22,6 @@ CREATE TABLE Orders (
     name TEXT,
     description TEXT
 )
+
+
+# What is it?
